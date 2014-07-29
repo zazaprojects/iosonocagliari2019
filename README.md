@@ -1,7 +1,7 @@
 Io sono Cagliari 2019
 ---------------------
 
-IoSonoCagliari2019 vuole rendere i cittadini protagonisti di una rivoluzione che renderà Cagliari una grande e poliedrica mostra a cielo aperto di ciò che si è prodotto, sperimentato, riscoperto.  In occasione della fase finale delle candidature per la capitale europea della cultura, e  in linea con il concept della candidatura cagliaritana, IoSonoCagliari2019 è uno strumento messo a disposione di tutti per contrubuire con il proprio progetto a migliorare Cagliari. I cittadini sono protagonisti nel cambiare la città, contribuendo con  il proprio valore  a crearne il futuro. Questo progetto è il mio contributo a Cagliari 2019, dal basso e condiviso, grazie alla rete.  Rendere possibile un contributo dal basso, capillare e condiviso è ciò che auguro alla mia città per il 2019. 
+IoSonoCagliari2019 vuole rendere i cittadini protagonisti di una rivoluzione che renderà Cagliari una grande e poliedrica mostra a cielo aperto di ciò che si è prodotto, sperimentato, riscoperto.  In occasione della fase finale delle candidature per la capitale europea della cultura, e  in linea con il concept della candidatura cagliaritana, IoSonoCagliari2019 è uno strumento messo a disposione di tutti per contrubuire con il proprio progetto a migliorare Cagliari. I cittadini sono protagonisti nel cambiare la città, contribuendo con  il proprio valore  a crearne il futuro. Rendere possibile un contributo dal basso, capillare e condiviso è ciò che auguro alla mia città per il 2019. 
 
 
 Details for contributors
