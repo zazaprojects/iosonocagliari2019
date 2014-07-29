@@ -193,7 +193,7 @@ object UserTopbar {
           </li>
         </ul>
       case _ if (S.request.flatMap(_.location).map(_.name).filterNot(it => List("Login", "Register").contains(it)).isDefined) =>
-        <a href="/login" class="btn btn-default navbar-btn navbar-right">Sign In</a>
+        <a href="/login" class="btn btn-default navbar-btn navbar-right">Unisciti!</a>
       case _ => NodeSeq.Empty
     }
   }

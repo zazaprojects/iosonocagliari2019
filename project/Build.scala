@@ -16,7 +16,10 @@ object LiftProjectBuild extends Build {
         "org.eclipse.jetty" % "jetty-webapp" % Ver.jetty % "container",
         "ch.qos.logback" % "logback-classic" % "1.0.13" % "compile",
         "org.scalatest" %% "scalatest" % "1.9.2" % "test",
-        "com.foursquare" %% "rogue-lift" % "2.2.0"
+          "com.foursquare" %% "rogue-field"         % "2.2.0" intransitive(),
+      "com.foursquare" %% "rogue-core"          % "2.2.0" intransitive(),
+      "com.foursquare" %% "rogue-lift"          % "2.2.0" intransitive(),
+      "com.foursquare" %% "rogue-index"         % "2.2.0" intransitive()
       )
     )
 }

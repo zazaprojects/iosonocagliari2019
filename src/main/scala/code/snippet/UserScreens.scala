@@ -25,6 +25,16 @@ sealed trait BaseCurrentUserScreen extends BaseScreen {
   }
 }
 
+sealed trait BaseCurrentProjectScreen extends BaseScreen {
+  object projectVar extends ScreenVar(project.createRecord)
+
+  override def localSetup {
+    Referer(Site.newProject.url)
+  }
+}
+
+
+
 object AccountScreen extends BaseCurrentUserScreen {
   addFields(() => userVar.is.accountScreenFields)
 
@@ -94,6 +104,20 @@ object ProfileScreen extends BaseCurrentUserScreen {
     S.notice("Profile settings saved")
   }
 }
+
+object ProjectScreen extends BaseCurrentProjectScreen {
+
+
+
+  addFields(() => projectVar.is.projectScreenFields)
+
+  def finish() {
+    projectVar.is.save
+    S.notice("Profile settings saved")
+  }
+}
+
+
 
 // this is needed to keep these fields and the password fields in the proper order
 trait BaseRegisterScreen extends BaseScreen {

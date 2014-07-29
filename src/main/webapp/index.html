@@ -2,19 +2,14 @@
   <lift:head>
     <title data-lift="Menu.title">iosonocagliari2019: %*%</title>
   </lift:head>
-  <div class="main-content">
-    <div data-lift="Notices"></div>
-    <div class="jumbotron">
-      <div class="inner">
-        <h1>iosonocagliari2019</h1>
-        <p>
-          <span data-lift="HelloWorld">
-          Welcome to your Lift app at <span id="time">Time goes here</span>
-          </span>
-        </p>
-        <p><span data-lift="Menu.item?name=About;donthide=true;linktoself=true;a:class=btn primary large">Learn More &raquo;</span></p>
-      </div>
+    <div id="map" style="height:666px;">
     </div>
-  </div>
+
+  <script>
+// Create a map in the div #map
+$( document ).ready(function() {
+L.mapbox.map('map', 'zazaza.map-owwnt12u');
+});
+</script>
   <span data-lift="embed?what=/templates-hidden/parts/footer"></span>
 </div>

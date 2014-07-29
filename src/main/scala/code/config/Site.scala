@@ -40,6 +40,7 @@ object Site extends Locs {
   val password = MenuLoc(Menu.i("Password") / "settings" / "password" >> RequireLoggedIn >> SettingsGroup)
   val account = MenuLoc(Menu.i("Account") / "settings" / "account" >> SettingsGroup >> RequireLoggedIn)
   val editProfile = MenuLoc(Menu("EditProfile", "Profile") / "settings" / "profile" >> SettingsGroup >> RequireLoggedIn)
+  val newProject = MenuLoc(Menu("NuovoProgetto", "Progetto") / "settings" / "progetto" >> SettingsGroup >> RequireLoggedIn)
   val register = MenuLoc(Menu.i("Register") / "register" >> RequireNotLoggedIn)
 
   private def menus = List(
@@ -52,6 +53,7 @@ object Site extends Locs {
     account.menu,
     password.menu,
     editProfile.menu,
+    newProject.menu,
     Menu.i("Error") / "error" >> Hidden,
     Menu.i("404") / "404" >> Hidden,
     Menu.i("Throw") / "throw"  >> EarlyResponse(() => throw new Exception("This is only a test."))
